@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.bnyzshopp</groupId>
+    <artifactId>bnyz_shopp</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>bnyzShopp_api_service</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>service_members</module>
+  </modules>
+  <dependencies>
+
+	<dependency>
+		<groupId>com.bnyzshopp</groupId>
+		<artifactId>common_web</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<!-- springcloud feign组件 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+	<!-- mybatis相关依赖 -->
+	<dependency>
+		<groupId>org.mybatis.spring.boot</groupId>
+		<artifactId>mybatis-spring-boot-starter</artifactId>
+		<version>1.1.1</version>
+	</dependency>
+	<!-- mysql 依赖 -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+	</dependency>
+  </dependencies>
+
+</project>
