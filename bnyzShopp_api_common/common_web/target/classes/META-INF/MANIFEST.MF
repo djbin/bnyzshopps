@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: common_web
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: djbin
+Implementation-Vendor-Id: com.bnyzshopp
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/bnyz_shopp/bnyzShopp_api_common/common_web
+Created-By: Maven Integration for Eclipse
+

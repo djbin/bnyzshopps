@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.bnyzshopp</groupId>
+    <artifactId>bnyz_shopp</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>bnyzShopp_api_entitys</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>entitys_members</module>
+  	<module>entitys_externals</module>
+  </modules>
+  <dependencies>
+	<!-- swagger-spring-boot -->
+	<dependency>
+		<groupId>com.spring4all</groupId>
+		<artifactId>swagger-spring-boot-starter</artifactId>
+		<version>1.7.0.RELEASE</version>
+	</dependency>
+   </dependencies>
+</project>
